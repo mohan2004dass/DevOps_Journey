@@ -1,0 +1,13 @@
+ls - Listing the file 
+pwd - print working directory - Current working directory with root
+mkdir - Make a directory, which is a  folder 
+rm - remove a file, not a folder
+rm -rf file name/ - remove complete folder ( - denotes flags, R denotes Recursive, go deeper, f denotes force)
+cd - Change Directory current folder to absolute path ( cd filename/)
+rmdir - used to delete permanently an empty directory 
+touch - Create an empty file or any files, .txt, .pdf 
+vi vim - use to open a new page, there we can type a files or text
+  It has two modes:
+     1.) Comment and insert 
+     2.) After st to type it change to insert mode after typing. If we have to save the files ": WQ"-write and quit, : Q - without saving , : Q!- don't need to save 
+cp - copying the file ( cp filename, new filename), eg, cp dass.txt mukesh.txt
