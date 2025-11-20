@@ -13,3 +13,9 @@ uname -a -> shows system name username and version
 date -> current date
 echo -> used in bash file
 wc -> to chcek words syntax: ( wc filename). first showes lines, second words, thirsd bites
+grep -> To find a whats inside the file. syntax: (grep "foldername" filename) this is exact place when we know, when we dont knwo the letters is caps or small we use syntax: (grep -i "foldername" filename), another syntax: ( grep -ir "filename" ./) if i want line 2 means use insted of filename use line number 
+history -> To check the history around upto 1000
+sudo -> super user it tell to do work using sudo it ask password 
+exit ->  to exit from the terminal 
+file -> Show which file its in like text file or mp3 like that 
+shutdown -> it will shutdown thw terminal 
