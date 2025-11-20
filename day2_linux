@@ -1,0 +1,15 @@
+Day 2 notes are on paper, which is now a photocopy. Check that 
+sed -> sed is a powerful tool that prints a head or tail in between lines. We use this for printing in a specific line, restoring files, deleting files, etc. The syntax is: (sed -n '2,5p' filename). Sed is a stream editor, -n is to specify output, and p is for printing   
+tail -f -> for showing a new file name and list
+ps -> To check the process 
+kill -> kill -9 if server is hanging to stop that we use kill command.. after ps use kill so only we get a process number. 
+Top -> To see what are the commnds are running currently to quit from that use "q"
+df -> Disc space 
+ssh -> Important! To work with some other server. Syntax: ( ssh ipaddress@hostname) connect with some computer. 
+wget ->To install apps. Study about this more Syntax: ( wget url).
+find -> finding a file in a folder or folder. syntax:( find ./ -name filename.txt) ./ means any files u can go into.
+uname -> shows system name 
+uname -a -> shows system name username and version 
+date -> current date
+echo -> used in bash file
+wc -> to chcek words syntax: ( wc filename). first showes lines, second words, thirsd bites
