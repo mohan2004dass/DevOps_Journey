@@ -1,1 +1,11 @@
-
+echo - The echo command in Linux is a built-in shell utility used to display a line of text or strings that are passed as arguments to the standard output (usually your terminal screen).
+Echo Escape Sequences( ES )- always for es use -e syntax : echo -e "text es" 
+Escape Sequences - there are 7+.
+1.) \n - new line echo -e "hi\nbuddy"
+2.) \t - Tab 4 space better for columns and rows "A\tb"
+3.) \b - Backspace based on terminal echo -e "Heloo\b"
+4.) \r - Return to start echo -e "wait...\rDone" if i want exact last valuse use some space after last word
+5.) \\ - Backslash echo -e "c:\\user"
+6.) \' - single quote echo -e 'It\'s ok'
+7.) \" - Double quote echo -e "He said \"Hi\""
+8.) \c - Stop Output echo -e "Stop\c"
