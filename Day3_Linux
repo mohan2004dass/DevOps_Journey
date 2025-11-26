@@ -9,3 +9,6 @@ Escape Sequences - there are 7+.
 6.) \' - single quote echo -e 'It\'s ok'
 7.) \" - Double quote echo -e "He said \"Hi\""
 8.) \c - Stop Output echo -e "Stop\c"
+
+Printf - It's the same as echo, but echo is used for smaller or single-line code. printf is more consistent, produces correct comment code, and is preferred.
+Perfect spacing.Perfect alignment.Works the same everywhere.Best for shell scripts.Does NOT add extra spaces or newlines unless you tell it.
